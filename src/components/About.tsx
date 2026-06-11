@@ -14,27 +14,25 @@ const About: React.FC = () => {
           className="space-y-6 text-secondary-700 dark:text-secondary-300"
         >
           <p className="text-lg">
-            I'm a passionate software engineer with a strong foundation in both frontend and backend development,
-            with a particular focus on creating intuitive and responsive user interfaces.
+            I'm a full-stack developer focused on turning complex data into reliable products, with experience
+            across data pipelines, interactive dashboards, and responsive user interfaces.
           </p>
 
           <p>
-            My journey began at <span className="font-semibold text-primary-600 dark:text-primary-400">1337 School (Common Core)</span>, 
-            where I established a solid understanding of programming fundamentals and systems design. 
-            I've built expertise in C, Unix, real-time systems, and client/server applications, allowing me to 
-            write efficient and scalable code.
+            At <span className="font-semibold text-primary-600 dark:text-primary-400">Phenoma</span>, I work on
+            experimental phenotyping data: collecting it from research workflows, structuring and storing it,
+            visualizing it for scientists, and preparing it for AI modeling and computer vision use cases.
           </p>
 
           <p>
-            I've also earned a <span className="font-semibold text-primary-600 dark:text-primary-400">Google IT Support Certificate</span> through Coursera,
-            which expanded my knowledge of system troubleshooting, networking, and Linux tools. This combination of
-            software development and IT support skills gives me a well-rounded perspective on building robust applications.
+            I graduated from <span className="font-semibold text-primary-600 dark:text-primary-400">1337 School</span>,
+            where I built a strong foundation in programming, systems thinking, and problem solving, then deepened
+            that background with a data science specialization.
           </p>
 
           <p>
-            My approach to software development centers on creating clean, maintainable code that delivers 
-            exceptional user experiences. I'm constantly exploring new technologies and best practices to 
-            enhance my skills and create better solutions.
+            My approach is practical: build clean systems, keep the data trustworthy, and design interfaces that make
+            complex information easy to understand and act on.
           </p>
         </motion.div>
       </div>
