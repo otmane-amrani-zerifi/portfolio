@@ -1,44 +1,40 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import {
-  SiJava,
   SiPython,
   SiTypescript,
   SiJavascript,
   SiC,
   SiCplusplus,
-  SiBash,
   SiReact,
   SiNextdotjs,
   SiTailwindcss,
   SiHtml5,
   SiCss3,
-  SiSpringboot,
   SiNodedotjs,
   SiDjango,
   SiExpress,
-  SiPostman,
   SiPostgresql,
   SiMongodb,
   SiApachecassandra,
   SiRedis,
   SiRabbitmq,
-  SiSocketdotio,
   SiGit,
   SiDocker,
   SiLinux,
-  SiGithubactions,
 } from 'react-icons/si';
+import { FaJava, FaTerminal } from 'react-icons/fa';
+import { SiSpringboot, SiPostman, SiSocketdotio, SiGithubactions } from 'react-icons/si';
 import { Skill } from '../data/skills';
 
 const iconMap: { [key: string]: React.ComponentType<{ size?: number }> } = {
-  SiJava,
+  SiJava: FaJava,
   SiPython,
   SiTypescript,
   SiJavascript,
   SiC,
   SiCplusplus,
-  SiBash,
+  SiBash: FaTerminal,
   SiReact,
   SiNextdotjs,
   SiTailwindcss,
