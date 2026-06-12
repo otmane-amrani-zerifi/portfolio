@@ -1,7 +1,65 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import * as SiIcons from 'react-icons/si';
+import {
+  SiJava,
+  SiPython,
+  SiTypescript,
+  SiJavascript,
+  SiC,
+  SiCplusplus,
+  SiBash,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+  SiSpringboot,
+  SiNodedotjs,
+  SiDjango,
+  SiExpress,
+  SiPostman,
+  SiPostgresql,
+  SiMongodb,
+  SiApachecassandra,
+  SiRedis,
+  SiRabbitmq,
+  SiSocketdotio,
+  SiGit,
+  SiDocker,
+  SiLinux,
+  SiGithubactions,
+} from 'react-icons/si';
 import { Skill } from '../data/skills';
+
+const iconMap: { [key: string]: React.ComponentType<{ size?: number }> } = {
+  SiJava,
+  SiPython,
+  SiTypescript,
+  SiJavascript,
+  SiC,
+  SiCplusplus,
+  SiBash,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+  SiSpringboot,
+  SiNodedotjs,
+  SiDjango,
+  SiExpress,
+  SiPostman,
+  SiPostgresql,
+  SiMongodb,
+  SiApachecassandra,
+  SiRedis,
+  SiRabbitmq,
+  SiSocketdotio,
+  SiGit,
+  SiDocker,
+  SiLinux,
+  SiGithubactions,
+};
 
 interface SkillCardProps {
   skill: Skill;
@@ -9,8 +67,7 @@ interface SkillCardProps {
 }
 
 const SkillCard: React.FC<SkillCardProps> = ({ skill, index }) => {
-  // @ts-ignore - Dynamically access icons from react-icons/si
-  const IconComponent = SiIcons[skill.icon];
+  const IconComponent = iconMap[skill.icon];
 
   return (
     <motion.div
