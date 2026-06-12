@@ -5,19 +5,19 @@ import { Award } from 'lucide-react';
 
 const certifications = [
   {
+    title: 'Level Completion Certificate',
+    issuer: '1337 Programming School - UM6P / 42 Network',
+    description:
+      'Ref: At-lvl-6225/2025. Level 13.71 / 21 in the Digital Technology Architect program, issued in Benguerir on 08/12/2025.',
+    href: '/otamrani.pdf',
+    cta: 'View Certificate →',
+  },
+  {
     title: 'Google IT Support Certificate',
     issuer: 'Earned via Coursera',
     description:
       'Comprehensive training in system troubleshooting, networking fundamentals, Linux tools, security protocols, and IT infrastructure management.',
     href: '/Coursera 28SCPF3JU6R8.pdf',
-    cta: 'View Certificate →',
-  },
-  {
-    title: "Attestation d'accomplissement de niveau",
-    issuer: '1337 école de programmation - UM6P / 42 Network',
-    description:
-      'Réf : At-lvl-6225/2025. Level 13.71 / 21, formation « Architecte en Technologies du Numérique », délivrée à Benguerir le 08/12/2025.',
-    href: '/otamrani.pdf',
     cta: 'View Certificate →',
   },
 ];
