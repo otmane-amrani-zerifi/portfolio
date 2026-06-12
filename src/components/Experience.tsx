@@ -62,7 +62,7 @@ const techFocus = [
 const Experience: React.FC = () => {
   return (
     <SectionWrapper id="experience" title="Professional Experience">
-      <div className="grid gap-8 lg:grid-cols-[1.45fr_0.85fr]">
+      <div className="max-w-5xl mx-auto">
         <motion.article
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -144,7 +144,6 @@ const Experience: React.FC = () => {
           </div>
         </motion.article>
 
-        {/* Education moved to its own section component */}
       </div>
     </SectionWrapper>
   );
